@@ -5,7 +5,6 @@ ThisBuild / scalaVersion := "3.6.1"
 lazy val root = (project in file("."))
   .settings(
     name := "scala-trial",
-    idePackagePrefix := Some("io.huangsam.trial")
   )
 
 libraryDependencies += "org.scalatest" %% "scalatest" % "3.2.18" % "test"
