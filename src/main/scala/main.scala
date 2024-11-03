@@ -1,3 +1,5 @@
+import behavior.Human
+
 @main
 def main(): Unit = {
   // Basic I/O
