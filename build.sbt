@@ -1,7 +1,7 @@
 ThisBuild / version := "0.1.0-SNAPSHOT"
 
 // https://www.scala-lang.org/download/all.html
-ThisBuild / scalaVersion := "3.6.3"
+ThisBuild / scalaVersion := "3.6.4"
 
 lazy val root = (project in file("."))
   .settings(
